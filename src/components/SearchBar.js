@@ -1,18 +1,18 @@
 import { useState } from 'react';
 
 function SearchBar({ onSubmit }) {
-	const [inputValue, setinputValue] = useState();
+	const [keyword, setKeyword] = useState();
 
 	const handleFormSubmit = (event) => {
 		event.preventDefault();
 
-		onSubmit(inputValue);
+		onSubmit(keyword);
 	};
 
 	return (
 		<div>
 			<form onSubmit={handleFormSubmit}>
-				<input onChange={(e) => setinputValue(e.target.value)} />
+				<input value={keyword} onChange={(e) => setKeyword(e.target.value)} />
 			</form>
 		</div>
 	);
