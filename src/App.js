@@ -1,7 +1,13 @@
+import SearchBar from './components/SearchBar';
+
 function App() {
+	const handleSubmit = (keyword) => {
+		console.log('Search with keyword', keyword);
+	};
+
 	return (
 		<div className="App">
-			<h1> Initial Setup Done!</h1>
+			<SearchBar onSubmit={handleSubmit} />
 		</div>
 	);
 }
