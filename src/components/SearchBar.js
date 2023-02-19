@@ -14,9 +14,9 @@ function SearchBar({ onSubmit }) {
 	};
 
 	return (
-		<div>
+		<div className="searchContainer">
 			<form onSubmit={handleFormSubmit}>
-				<input value={keyword} onChange={handleChange} />
+				<input className="inputField" value={keyword} onChange={handleChange} />
 			</form>
 		</div>
 	);

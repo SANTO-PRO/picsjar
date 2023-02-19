@@ -1,6 +1,6 @@
 function ImageShow({ image }) {
 	return (
-		<div>
+		<div className="imageCard">
 			<img src={image.urls.small} alt={image.alt_description} />
 		</div>
 	);

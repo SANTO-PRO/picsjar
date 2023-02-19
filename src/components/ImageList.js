@@ -5,7 +5,7 @@ function ImageList({ images }) {
 		return <ImageShow image={image} key={image.id} />;
 	});
 
-	return <div>{renderedImage}</div>;
+	return <div className="imageContainer">{renderedImage}</div>;
 }
 
 export default ImageList;
