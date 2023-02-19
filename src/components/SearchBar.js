@@ -9,10 +9,14 @@ function SearchBar({ onSubmit }) {
 		onSubmit(keyword);
 	};
 
+	const handleChange = (event) => {
+		setKeyword(event.target.value);
+	};
+
 	return (
 		<div>
 			<form onSubmit={handleFormSubmit}>
-				<input value={keyword} onChange={(e) => setKeyword(e.target.value)} />
+				<input value={keyword} onChange={handleChange} />
 			</form>
 		</div>
 	);

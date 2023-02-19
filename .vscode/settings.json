@@ -5,6 +5,6 @@
     "source.fixAll.tslint": true,
     "source.organizeImports": true
   },
-  "javascript.format.enable": false,
-  "typescript.format.enable": false
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false
 }
