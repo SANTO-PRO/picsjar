@@ -1,0 +1,39 @@
+.searchContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem;
+
+	form {
+		// background: #868686;
+
+		label {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			font-size: 2rem;
+			font-weight: 600;
+			letter-spacing: 0.5rem;
+
+			input {
+				width: 30rem;
+				height: 2.5rem;
+
+				background: #d9b391;
+				color: #4a5947;
+
+				font-size: 1.5rem;
+				font-weight: 600;
+				text-align: center;
+
+				padding: 0rem 0.5rem;
+				margin: 0.5rem;
+				font-size: 1rem;
+
+				border: none;
+				border-radius: 5px;
+			}
+		}
+	}
+}

@@ -16,7 +16,14 @@ function SearchBar({ onSubmit }) {
 	return (
 		<div className="searchContainer">
 			<form onSubmit={handleFormSubmit}>
-				<input className="inputField" value={keyword} onChange={handleChange} />
+				<label>
+					Search Images
+					<input
+						className="inputField"
+						value={keyword}
+						onChange={handleChange}
+					/>
+				</label>
 			</form>
 		</div>
 	);

@@ -4,6 +4,8 @@ import ImageList from './components/ImageList';
 import Navbar from './components/Navbar';
 import SearchBar from './components/SearchBar';
 
+import './styles/Global.scss';
+
 function App() {
 	const [images, setImages] = useState([]);
 
