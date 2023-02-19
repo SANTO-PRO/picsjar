@@ -1,26 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;700&display=swap');
 
-/* Color Theme Swatches in Hex */
-$Illustration-1-hex: #1e261d;
-$Illustration-2-hex: #4a5947;
-$Illustration-3-hex: #7e8c7b;
-$Illustration-4-hex: #d9b391;
-$Illustration-5-hex: #bf8f73;
-
-/* Color Theme Swatches in RGBA */
-$Illustration-1-rgba: rgba(29, 38, 29, 1);
-$Illustration-2-rgba: rgba(73, 89, 71, 1);
-$Illustration-3-rgba: rgba(125, 140, 123, 1);
-$Illustration-4-rgba: rgba(216, 178, 145, 1);
-$Illustration-5-rgba: rgba(191, 142, 114, 1);
-
-/* Color Theme Swatches in HSLA */
-$Illustration-1-hsla: hsla(118, 12, 13, 1);
-$Illustration-2-hsla: hsla(112, 11, 31, 1);
-$Illustration-3-hsla: hsla(112, 6, 51, 1);
-$Illustration-4-hsla: hsla(28, 48, 70, 1);
-$Illustration-5-hsla: hsla(22, 37, 60, 1);
-
 * {
 	padding: 0;
 	margin: 0;
@@ -29,8 +8,7 @@ $Illustration-5-hsla: hsla(22, 37, 60, 1);
 	font-family: 'Phudu', cursive;
 }
 
-.app {
-	min-height: 100vh;
+html {
 	background: #4a5947;
 }
 

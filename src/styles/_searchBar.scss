@@ -4,9 +4,9 @@
 	align-items: center;
 	padding: 2rem;
 
-	form {
-		// background: #868686;
+	user-select: none;
 
+	form {
 		label {
 			display: flex;
 			flex-direction: column;
@@ -31,8 +31,15 @@
 				margin: 0.5rem;
 				font-size: 1rem;
 
-				border: none;
+				border: 2px solid #1e1e1e;
 				border-radius: 5px;
+
+				outline: none;
+
+				@media screen and (max-width: 500px) {
+					width: 100%;
+					height: 2.2rem;
+				}
 			}
 		}
 	}
